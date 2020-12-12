@@ -14,10 +14,10 @@
                 "capacity": 1
             },
             "tags": {
-                "displayName": "frankdemoplan"
+                "displayName": "mayankdemoplan"
             },
             "properties": {
-                "name": "frankdemoplan"
+                "name": "mayankdemoplan"
             }
         },
         {
@@ -26,15 +26,15 @@
             "name": "mayankdemo4243",
             "location": "[resourceGroup().location]",
             "tags": {
-                "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/frankdemoplan')]": "Resource",
-                "displayName": "frankdemo4243"
+                "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/mayankdemoplan')]": "Resource",
+                "displayName": "mayankdemo4243"
             },
             "dependsOn": [
-                "Microsoft.Web/serverfarms/frankdemoplan"
+                "Microsoft.Web/serverfarms/mayankdemoplan"
             ],
             "properties": {
-                "name": "frankdemo4243",
-                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'frankdemoplan')]"
+                "name": "mayankdemo4243",
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'mayankdemoplan')]"
             }
         }
     ],
